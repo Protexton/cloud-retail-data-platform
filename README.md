@@ -1,8 +1,8 @@
-# 🛍️ Cloud Retail Data Platform
+# Cloud Retail Data Platform_VacaIker
 
 Este proyecto simula una **infraestructura moderna de datos** para una cadena ficticia de retail que opera con múltiples tiendas físicas y canal online.
 
-## 🎯 Objetivo
+## Objetivo
 
 Diseñar una plataforma de datos integral que permita:
 
@@ -13,7 +13,7 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 🧱 Arquitectura de referencia
+## Arquitectura de referencia
 
 ```
 [ Datos brutos ] → [ ETL con Python ] → [ PostgreSQL ] → [ Orquestación con Airflow ] → [ Visualización con Power BI/Tableau ]
@@ -21,7 +21,7 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 - `data/raw/`: Datos originales simulados (ventas, clientes, productos…)
 - `scripts/`: Código Python de procesamiento, validación y carga
@@ -32,7 +32,7 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 🧪 Dataset generado
+## Dataset generado
 
 - **Clientes:** 50 usuarios con ciudad, email, nombre
 - **Tiendas:** 5 localizaciones con nombre y ciudad
@@ -42,7 +42,7 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 🔧 Stack utilizado
+## Stack utilizado
 
 | Componente        | Herramienta                     |
 |-------------------|---------------------------------|
@@ -55,7 +55,7 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 📊 Resultados esperados
+## Resultados esperados
 
 - KPIs clave por tienda, producto y categoría
 - Productos más vendidos y peor valorados
@@ -64,6 +64,6 @@ Diseñar una plataforma de datos integral que permita:
 
 ---
 
-## 🧠 Autor
+## Autor
 
 Iker Vaca Reina · [GitHub: Protexton](https://github.com/Protexton)
